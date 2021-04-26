@@ -12,8 +12,11 @@
 #
 import os
 import sys
-# sys.path.insert(0, os.path.abspath('../../sampaga/'))
-sys.path.append(os.path.abspath('../../'))
+
+from pathlib import Path
+p = Path(__file__).parents[2]
+sys.path.insert(0, os.path.abspath(p))
+# sys.path.append(os.path.abspath('../../'))
 
 
 # -- Project information -----------------------------------------------------
