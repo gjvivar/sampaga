@@ -8,6 +8,7 @@ class Sampaga:
 
     Args:
         arg1 (str): string name.
+        number1 (:obj: int): number.
 
     """
     def __init__(self, name):
